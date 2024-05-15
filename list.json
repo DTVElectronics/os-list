@@ -1,0 +1,78 @@
+[
+  {
+    "name": {
+      "en": "General-purpose",
+      "de": "Allgemein"
+    },
+    "description": {
+      "en": "General-purpose operating systems",
+      "de": "Allgemeine Betriebssysteme"
+    },
+    "images": [
+      {
+        "name": {
+          "en": "Debian GNU/Linux (CLI)",
+          "de": "Debian GNU/Linux (CLI)"
+        },
+        "description": {
+          "en": "A free, community-driven operating system (Command Line Interface only)",
+          "de": "Ein freies, von der Community getriebenes Betriebssystem (nur Kommandozeile)"
+        },
+        "images": {
+          "radxa-cm3-rpi-cm4-io": {
+            "url": "https://github.com/radxa-build/radxa-cm3-rpi-cm4-io/releases/download/b15/radxa-cm3-rpi-cm4-io_debian_bullseye_cli_b15.img.xz",
+            "sha512": "7d96dc52826134606b9c9727252570f2457e75ee5f3dc3546b98fc24d025b084e7736f6b9884986ad8d348935941739a93e699d6f0f5fe359270c7c034be52b3"
+          },
+          "radxa-cm3-sodimm-io": {
+            "url": "https://github.com/radxa-build/radxa-cm3-sodimm-io/releases/download/b27/radxa-cm3-sodimm-io_debian_bullseye_cli_b27.img.xz",
+            "sha512": "e2ed35c78bb6806eaeba021ae560619dce9208b45b437daa1c1c8687d0b538729f471cb4fa246361598432c1209ee5b9a4016debadde6c80daa892cbf4c2665e"
+          }
+        }
+      },
+      {
+        "name": {
+          "en": "Nirvati",
+          "de": "Nirvati"
+        },
+        "description": {
+          "en": "A free server management system",
+          "de": "Ein freies Server-Management-System"
+        },
+        "images": {
+          "radxa-cm3-rpi-cm4-io": {
+            "url": "https://assets.nirvati.org/81e9e5c8/radxa-cm3-rpi-cm4-io_debian_bookworm_xfce.img.xz",
+            "sha512": "TODO // I haven't calculated the checksum here yet, it would be here in the final version"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": {
+      "en": "Bitcoin",
+      "de": "Bitcoin"
+    },
+    "description": {
+      "en": "Bitcoin-related operating systems",
+      "de": "Bitcoin-bezogene Betriebssysteme"
+    },
+    "images": [
+      {
+        "name": {
+          "en": "Citadel",
+          "de": "Citadel"
+        },
+        "description": {
+          "en": "A completely FOSS Bitcoin full node stack",
+          "de": "Ein vollständig freier Bitcoin Full-Node Stack"
+        },
+        "images": {
+          "radxa-cm3-rpi-cm4-io": {
+            "url": "https://assets.nirvati.org/4f8e77a6/radxa-cm3-rpi-cm4-io_debian_bookworm-test_xfce.img.xz",
+            "sha512": "TODO // I haven't calculated the checksum here yet, it would be here in the final version"
+          }
+        }
+      }
+    ]
+  }
+]
